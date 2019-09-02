@@ -12,7 +12,7 @@ def hopper
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => ["C"]
         }
      }
 programmer_hash[:grace_hopper]
@@ -34,7 +34,7 @@ def alan_kay_is_known_for
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => ["C"]
         }
      }
      
@@ -55,7 +55,7 @@ def dennis_ritchies_language
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => ["C"]
         }
      }
      
@@ -87,7 +87,7 @@ def adding_matz
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => ["C"]
         }
      }
     
@@ -108,7 +108,7 @@ def changing_alan
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => ["C"]
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
